@@ -1,0 +1,7 @@
+let x1 = 500;
+let x2 = 200;
+let x3 = 300;
+
+if(x1>x2 && x1>x3){
+    console.log("x1 is greater")
+}
