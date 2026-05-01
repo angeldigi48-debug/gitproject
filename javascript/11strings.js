@@ -34,3 +34,40 @@ console.log(city[city.length-1]) //op - R
 
 let ff = `My name is "Rahul" `
 console.log(`Name ${ff}`)
+
+// String Methods
+let name1 = "rahul chaudhari"
+let a1 = name1.toUpperCase() //return string in Uppercase
+console.log(a1)
+
+
+let fullName = "PARNIKA$"
+let a2 = fullName.toLowerCase()
+console.log(a2)
+
+//Method chaining
+let a4 = "rahul".toUpperCase().toLowerCase().length
+         // rahul.RAHUL.rahul.5
+console.log(a4)//op - 5
+
+let city2 =  "JALGAON"
+let a5 = city2.includes("O") //return = Bollean value i.e. True and False matching the character with string value.
+console.log(a5) //OP is  - True
+
+let empname = "premprakash"
+let a6 = empname.includes("pra") //substring also accept
+console.log(a6) // Op True
+
+let City3 = "JALGAON"
+let a7 = City3.includes("O", 6) // O charcter is checking after the 6 index position 
+console.log(a7) //op is false 
+let a8 = City3.includes("O", 4) // O chacater is checking after the 4th index position
+console.log(a8)  //OP is True
+
+let nam = "chetan"
+let a9 = nam.indexOf("e")
+console.log(a9)
+
+let nam2 = "chetcan"
+let b1 = nam2.indexOf("c",2)
+console.log(b1)
