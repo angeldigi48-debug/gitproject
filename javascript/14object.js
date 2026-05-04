@@ -31,4 +31,3 @@ car.model = "A4"
 delete car.type
 car.type ="car r"
 console.log(car)
-console.log(car)
