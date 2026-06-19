@@ -83,7 +83,7 @@ let emp = {
     }
 
 }
-let a2 = Object.hasOwn(emp.department,"dep1")
+let a2 = Object.hasOwn(emp.department,"dep1")//object madhe object asel tevha  ase lihu shakto
 console.log(a2)
 
 
