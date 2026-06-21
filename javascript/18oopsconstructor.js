@@ -1,7 +1,7 @@
 class Person2 {
     constructor(firstName,lastName){
         this.fn = firstName
-        this.ln  = lastName
+        this.ln = lastName
     }
     displayName(){
         console.log(this.fn + this.ln)

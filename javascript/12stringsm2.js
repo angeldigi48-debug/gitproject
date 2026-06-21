@@ -14,5 +14,7 @@ let q3 = s3.trim() // trim method is used for remove the spacing from start and 
 console.log(q3) //op is - Rahul
 
 let s4 = " Rahul"
-let q4 = s4.trimStart()
-console.log(q4)
+let q4 = s4.trimStart() // trimStart method used for remove the spacing from start 
+console.log(q4)//Op is - Rahul
+
+let s5 = " Rahul"

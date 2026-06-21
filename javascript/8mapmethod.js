@@ -1,3 +1,4 @@
+// Mapping Method
 //Program 1 : add 10 in each array element.
 let num = [11,22,33,44,55,66]
 

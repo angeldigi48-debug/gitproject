@@ -22,3 +22,9 @@ console.log(MapA)
 //   3 => 'Customer',
 //   4 => 'Supervisor'
 // Map madhe jo data type asel to yeto aata key jr number aahe tr number ch op yenar
+
+let MapB = new Map([
+    [1,"ABCD"],
+    [true,"PQR"]
+    
+])

@@ -65,9 +65,9 @@ let a8 = City3.includes("O", 4) // O chacater is checking after the 4th index po
 console.log(a8)  //OP is True
 
 let nam = "chetan"
-let a9 = nam.indexOf("e")
-console.log(a9)
+let a9 = nam.indexOf("e")//method returns the index of element
+console.log(a9)// op - 2
 
 let nam2 = "chetcan"
-let b1 = nam2.indexOf("c",2)
-console.log(b1)
+let b1 = nam2.indexOf("c",2) // "C" element is checking after the 2nd index postion 
+console.log(b1) // op is 4 
