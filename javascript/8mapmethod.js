@@ -1,5 +1,6 @@
 // Mapping Method
-//Program 1 : add 10 in each array element.
+
+
 let num = [11,22,33,44,55,66]
 
 let q11 = num.map(function(el,index,arr){
@@ -21,3 +22,4 @@ let q13 = mul.map(function(el){
     return el * 2
 })
 console.log(q13)
+

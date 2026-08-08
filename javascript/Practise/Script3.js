@@ -95,3 +95,97 @@ let age = 20;
 let a1 = age > 18 ? "can drive" : "can't drive" // we can define this way to using ternary operator (?)
 console.log(a1)
 
+
+let x1 = 3;
+let x2 = 6;
+let x3 = 15;
+
+if(x1 > x2 && x1 > x3){
+    console.log("X1 is greater")
+}
+else if (x2 > x1 && x2 > x3){
+    console.log("X2 is greater")
+}
+else {
+    console.log("X3 is greater")
+}
+
+//Switch case without break statment.
+let city = "Pune";
+switch(city) {
+    case "Pune" : console.log("MH");
+    case "Indore" : console.log("MP");
+    case "Surat" : console.log("GJ")
+    case "Jaipur" : console.log("RJ")
+    default : console.log("Incorrect city name")
+}
+
+let stud = "Parnika"
+switch(stud){
+    case "Rahul" : console.log("QA Enginner")
+    case "Parnika" : console.log("Devloper")
+    case "Archana" : console.log("HR Manager")
+    default : console.log("No department")
+}
+
+//Switch case with break statment.
+
+let city2 = "Jaipur";
+switch(city2){
+    case "Mumbai" : console.log("Maharashtra");
+    break;
+    case "Jaipur" : console.log("Rajasthan")
+    break;
+    case "Surat" : console.log("Gujrath");
+    break;
+    default : console.log("Incorrect city name")
+}
+
+// switch case with multiple statement
+let city3 = "Bhilwara";
+switch(city3){
+    case "Mumbai" :
+    case "Pune" :
+    case "Nagpur" :
+        console.log("Maharashtra");
+        break;
+        case "Jaipur" :
+        case "Bhilwara" :
+        case "Jodhpur" :
+            console.log("Rajasthan");
+            break;
+            case "Burhanpur":
+            case "Bhopal" :
+            case "Bhilai" :
+                console.log("Madhyapradesh");
+                break;
+                default : console.log("Incorrect city name");
+}
+//----------------------------------------------------------------------------------
+let a = 5000;
+let b = 3000;
+let c = 1000;
+let flag = true;
+
+switch(flag) {
+    case a > b && a > c :
+        console.log("a is greater");
+        break;
+        case b > a && b > c :
+            console.log("b is greater");
+           break;
+            default : console.log("c is greater");
+}
+
+let score = 85;
+switch(true){
+    case (score >= 90) :
+        console.log("Grade : A");
+        break;
+        case (score >= 75) :
+            console.log("Grade : B"); // op - Grade - B
+            break;
+            default :
+            console.log("Grade : C or Lower")
+
+}
